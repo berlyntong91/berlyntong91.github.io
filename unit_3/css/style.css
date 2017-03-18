@@ -9,12 +9,13 @@ body{
 h1{
 	color: #FFC04A;
 }
+h3{
+	font-style: italic;
+	font-size: 40px;
+}
 p{
-	font-size: 20px;
+	font-size: 12px;
 }
 ul{
 	font-size:20px;
-}
-#slogan{
-	font-style: italic;
 }
