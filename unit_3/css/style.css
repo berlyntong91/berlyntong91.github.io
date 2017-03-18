@@ -10,7 +10,8 @@ header{
 body{
 	text-align: center;
 	background: url("http://www.bardot-salon.com/sites/default/files/public/images/gallery/IMG_0469_color_0.jpg");
-	background-size:all;
+	background-size:cover;
+	background-repeat: no-repeat;
 	color:#ffffff;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 20px;
