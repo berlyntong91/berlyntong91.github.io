@@ -1,6 +1,6 @@
 body{
 	text-align: center;
-	background-image: url("scissors_dark.jpg");
+	background-image: url("http://www.bardot-salon.com/sites/default/files/public/styles/banner/public/images/banner/banner5.jpg?itok=PAPn-FwP");
 	background-size:cover;
 	color:#ffffff;
 	font-size: 20px;
@@ -10,7 +10,10 @@ h1{
 	color: #FFC04A;
 }
 p{
-	font-size: 10px;
+	font-size: 20px;
+}
+ul{
+	font-size:20px;
 }
 #slogan{
 	font-style: italic;
