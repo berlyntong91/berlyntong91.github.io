@@ -3,19 +3,19 @@ body{
 	background: url("http://www.bardot-salon.com/sites/default/files/public/images/gallery/IMG_0469_color_0.jpg");
 	background-size:cover;
 	color:#ffffff;
-	font-size: 20px;
 	font-family: Helvetica;
 }
 h1{
 	color: #FFC04A;
+	font-size: 40px;
 }
 h3{
 	font-style: italic;
-	font-size: 40px;
+	font-size: 20px;
 }
 p{
 	font-size: 12px;
 }
 ul{
-	font-size:20px;
+	font-size:12px;
 }
