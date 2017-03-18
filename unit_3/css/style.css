@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+	background-image: url("scissors_dark.jpg");
+	background-size:cover;
+	color:#ffffff;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+h1{
+	color: #FFC04A;
+}
+p{
+	font-size: 10px;
+}
+#slogan{
+	font-style: italic;
+}
