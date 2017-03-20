@@ -9,7 +9,7 @@ header{
 }
 body{
 	text-align: center;
-	background: url("http://www.bardot-salon.com/sites/default/files/public/images/gallery/IMG_0469_color_0.jpg");
+	background: url("../images/scissors_light.jpg");
 	background-size:cover;
 	background-repeat: no-repeat;
 	color:#ffffff;
@@ -47,6 +47,8 @@ main{
 
 ul{
 	padding-left: 20px;
+	width: 300px;
+	margin:0 auto;
 }
 
 footer{
@@ -54,4 +56,9 @@ footer{
 	padding: 20px;
 	text-align: center;
 }
+
+#slogan {
+	color:pink;
+}
+
 
