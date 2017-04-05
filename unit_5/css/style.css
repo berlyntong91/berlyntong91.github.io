@@ -10,6 +10,7 @@ header {
 	background-color:#FFED74;
     border: 1px black solid;
     padding: 20px;
+    text-align: center;
 }
 
 h1{
@@ -24,10 +25,7 @@ nav{
     padding: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-
-a{
-	text-decoration: none;
+    text-align: center;
 }
 
 hr {
@@ -38,6 +36,7 @@ main {
 	background-color:#E89C6C;
     border: 1px black solid;
     padding: 20px;
+    text-align: center;
 
 }
 
@@ -60,4 +59,15 @@ a{
 	color:#000;
 	border-bottom: 1px solid #000;
 	padding-bottom:2px;
+}
+
+#logo{
+	position: absolute;
+}
+
+#icons{
+	position: relative;
+	right: 0px;
+	left: 500px;
+	padding:10px;
 }
