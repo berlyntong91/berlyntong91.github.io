@@ -22,8 +22,17 @@ nav{
 	background-color:#E8C66A;
     border: 1px black solid;
     padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
+a{
+	text-decoration: none;
+}
+
+hr {
+	border: 1px black;
+}
 main {
 	background-color: #fff;
 	background-color:#E89C6C;
@@ -33,7 +42,9 @@ main {
 }
 
 footer {
-	background-color: grey;
+	font-family: 'Abel', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
 	padding: 50px 0;
 	background-color:#FF957E;
     border: 1px black solid;
@@ -50,8 +61,3 @@ a{
 	border-bottom: 1px solid #000;
 	padding-bottom:2px;
 }
-
-#ig{
-	width:30em;
- 	margin:2em auto;
-} 
