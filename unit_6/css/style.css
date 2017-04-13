@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Quicksand:300')
+
+body{
+	background-color: #fff;
+	font-size: 16px;
+}
+
+header {
+	font-family: 'Quicksand', sans-serif;
+	background-color:#fff;
+    border: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+	font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+	margin: auto;
+	font-family: 'Abel', sans-serif;
+	background-color:#fffacd;
+    border: 1px black;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    float: none;
+}
+hr {
+	border: 1px black;
+}
+
+article {
+	background-color: #fff;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+	font-family: 'Abel', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 10px;
+	background-color:grey;
+    border: 1px black solid;
+}
+
+img{
+	width: auto;
+	float:none;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+#logo{
+	position: left;
+}
+
+#icons{
+	position: auto;
+	right: 0px;
+	left: 500px;
+	padding:10px;
+}
+
+#two_column {
+    background-color: #fff;
+    border: 1px;
+    padding: 20px;
+}
+
+#left {
+    background-color: #fff;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 25%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
