@@ -3,35 +3,34 @@
 body{
 	background-color: #fff;
 	font-size: 1em;
+    width:85%;
 }
 
 header {
 	font-family: 'Quicksand', sans-serif;
 	background-color:#efd670;
     border: 0px;
-    padding: 80px;
+    padding: 100px;
     margin: auto;
     text-align: center;
     display: block;
     clear: both;
-}
-
-h1{
-	font-family: 'Quicksand', sans-serif;
+    width: 85%;
 }
 
 nav{
-	margin: auto;
+	margin: 0 10px;
 	font-family: 'Abel', sans-serif;
     color: #fff;
-    padding: 20px;
-    letter-spacing: 2px;
+    font-size: 1em;
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 15px;
     text-align: justify;
     text-transform: uppercase;
     text-decoration: none;
     overflow: hidden;
     display: inline-block;
-/*    float: none;*/
 }
 
 nav a{
@@ -43,16 +42,23 @@ nav a{
 }
 
 article {
-    border: 1px solid black;
-    padding: .5em 0;
+    border: none;
+    padding: 0;
+    margin: 0;
     float: none;
 }
 
 footer {
 	font-family: 'Abel', sans-serif;
     color: #fff;
-    font-size: 1em;
-    border: 1px black solid;
+    font-size: .9em;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1px 0 0 0;
+    padding: 0px;
+    border:0px;
     clear: both;
     display: inline-block;
     background: #efd670;
@@ -67,23 +73,35 @@ img{
 a{
 	text-decoration:none;
 	color:#000;
-	border-bottom: 1px solid #000;
-	padding-bottom:2px;
+	border-bottom: none;
+	padding-bottom:40px;
 }
 
 #logo{
 	float: left;
+    position:absolute;
+    left:0.5px;
+    top:10px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
 }
 
 #icons{
 	float: right;
+    position: right;
 	right: 0px;
-	left: 500px;
+	left: 0px;
 	padding:10px;
+    margin: 10px 0 10px 0;
 }
 
 #nav {
     float: right;
+    right: 0px;
+    left: 0px;
+    padding:.5px;
+    margin: 10px 0 10px 0;
+ /*   width: 100%;*/
 }
 
 /*Change the color of links on hover*/
@@ -104,14 +122,12 @@ a{
     float: auto;
 }
 
-#address{
-    text-align: left;
-    float: none;
+#copyright {
+    float: left;
 }
 
-#contact {
-    text-align: right;
-    float: none;
+#address{
+    float: right;
 }
 
 .clearfix:after {
@@ -121,4 +137,13 @@ a{
     content: " ";
     clear: both;
     height: 0;
+}
+
+@media only screen and (max-width: 1165px) {
+    #nav {
+        float: none;
+        width: auto;
+        font-size: 1em;
+        display: block;
+        }
 }
