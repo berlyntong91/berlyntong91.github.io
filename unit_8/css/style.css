@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Quicksand:300')
+
+body{
+	background-color: #fff;
+	font-size: 1em;
+}
+
+header {
+	font-family: 'Quicksand', sans-serif;
+	background-color:#efd670;
+    border: 0px;
+    padding: 80px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+h1{
+	font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+	margin: auto;
+	font-family: 'Abel', sans-serif;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+/*    float: none;*/
+}
+
+nav a{
+    color: #fff;
+    display: inline-block;
+    width: auto;
+    float: none;
+    padding: .5em 0;
+}
+
+article {
+    border: 1px solid black;
+    padding: .5em 0;
+    float: none;
+}
+
+footer {
+	font-family: 'Abel', sans-serif;
+    color: #fff;
+    font-size: 1em;
+    border: 1px black solid;
+    clear: both;
+    display: inline-block;
+    background: #efd670;
+    width: 100%;
+}
+
+img{
+	width: auto;
+	float:none;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+#logo{
+	float: left;
+}
+
+#icons{
+	float: right;
+	right: 0px;
+	left: 500px;
+	padding:10px;
+}
+
+#nav {
+    float: right;
+}
+
+/*Change the color of links on hover*/
+
+#nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#scissors {
+    background-color: #fff;
+    padding: 20px;
+    float: auto;
+}
+
+#address{
+    text-align: left;
+    float: none;
+}
+
+#contact {
+    text-align: right;
+    float: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
