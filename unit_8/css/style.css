@@ -164,6 +164,11 @@ a{
         width: 100%;
         font-size: .5em;
     }
+
+    header {
+        width: 100%;
+        font-size: .9em;
+    }
 }
 
 /*@media screen and (min-width:760px) and (max-width: 1176px) {
