@@ -3,12 +3,13 @@
 body{
 	background-color: #fff;
 	font-size: 1em;
-    width:85%;
+    /*width:85%;*/
+    margin: 0;
 }
 
 header {
 	font-family: 'Quicksand', sans-serif;
-	background-color:#efd670;
+	background-color:#44CCB3;
     border: 0px;
     padding: 100px;
     margin: auto;
@@ -61,7 +62,7 @@ footer {
     border:0px;
     clear: both;
     display: inline-block;
-    background: #efd670;
+    background: #517F77;
     width: 100%;
 }
 
@@ -86,6 +87,10 @@ a{
     margin: 10px 0 10px 0;
 }
 
+#logo img {
+    padding-left: 12px;
+}
+
 #icons{
 	float: right;
     position: right;
@@ -97,8 +102,9 @@ a{
 
 #nav {
     float: right;
-    right: 0px;
-    left: 0px;
+    right: 0;
+    position: absolute;
+    top:0;
     padding:.5px;
     margin: 10px 0 10px 0;
  /*   width: 100%;*/
@@ -139,11 +145,39 @@ a{
     height: 0;
 }
 
-@media only screen and (max-width: 1165px) {
+@media screen and (max-width: 760px) {
     #nav {
+        float:none;
+    }
+    nav a {
         float: none;
         width: auto;
         font-size: 1em;
         display: block;
-        }
+    }
+    #logo img{
+        width: 160px;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+        font-size: .5em;
+    }
 }
+
+/*@media screen and (min-width:760px) and (max-width: 1176px) {
+    #nav {
+        float:none;
+    }
+    nav a {
+        float: none;
+        width: auto;
+        font-size: 1em;
+        display: block;
+    }
+    #logo img{
+        width: 160px;
+        height: auto;
+    }
+}*/
