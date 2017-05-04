@@ -145,7 +145,7 @@ a{
     height: 0;
 }
 
-@media screen and (max-width: 760px) {
+@media only screen and (max-width: 760px) {
     #nav {
         float:none;
     }
@@ -168,21 +168,5 @@ a{
     header {
         width: 100%;
         font-size: .9em;
-    }
-}
-
-@media screen and (max-width: 1176px) {
-    #nav {
-        float:none;
-    }
-    nav a {
-        float: none;
-        width: auto;
-        font-size: 1em;
-        display: block;
-    }
-    #logo img{
-        width: 160px;
-        height: auto;
     }
 }
