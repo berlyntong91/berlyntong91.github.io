@@ -171,7 +171,7 @@ a{
     }
 }
 
-/*@media screen and (min-width: 1176px) {
+@media screen and (max-width: 1176px) {
     #nav {
         float:none;
     }
@@ -185,4 +185,4 @@ a{
         width: 160px;
         height: auto;
     }
-}*/
+}
