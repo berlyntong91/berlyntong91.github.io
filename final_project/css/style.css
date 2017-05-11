@@ -55,6 +55,7 @@ h2 {
     padding-bottom: 30px;
     display: inline-block;
     font-family: "work sans", sans-serif;
+    font-size: 2em;
 }
 
 button {
@@ -68,10 +69,11 @@ button {
     border-radius: 8px;
     text-transform: lowercase;
     display: inline-block;
-    font-size: 2em;
+    font-size: 1.5em;
     opacity: .9;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 button a {
     color:#fff;
     text-decoration: none;
