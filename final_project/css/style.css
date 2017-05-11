@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200')
+
+body{
+    font-size: 1em;
+    color:#000;
+    width: 100%;
+}
+
+header {
+    padding-bottom: 10px;
+}
+
+header img {
+    clear:left;
+    float: left;
+}
+
+nav a {
+    color:#888;
+    text-decoration: none;
+    float: none;
+    width: auto;
+}
+
+nav {
+    font-size: 1.5em;
+    font-family: "work sans", sans-serif;
+    font-weight: 100;
+    float:right;
+    clear: none;
+    color: #000;
+    word-spacing: 15px;
+    text-transform: lowercase;
+    overflow: hidden;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+section {
+    background-position: center;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: "work sans", sans-serif;
+    font-weight: 100;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 0 1px;
+    display: inline-block;
+
+}
+
+h2 {
+    margin: 0px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+button {
+    background-color: #8FF9E4;
+    border: none;
+    color: white;
+    font-family: "work sans", sans-serif;
+    font-weight: 200;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    text-transform: lowercase;
+    display: inline-block;
+    font-size: 1em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button a {
+    color:#fff;
+    text-decoration: none;
+    float: none;
+    width: auto;
+}
+
+footer{
+    font-size: 1em;
+    font-family: "work sans", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    background-color: #999;
+    height: auto;
+    text-transform: lowercase;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    margin: 1px 0 0 0;
+    padding:0 10px;
+    border: 0px;
+}
+
+.hero-image{
+    background-image: url(http://www.rd.com/wp-content/uploads/sites/2/2016/02/06-13-things-your-hairstylist-wont-tell-you-cut-and-color.jpg);
+/*    height: 100%;*/
+/*    width: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 250px;
+    padding-top: 200px;
+}
+
+#icons {
+    float: none;
+    display: inline-block;
+}
+
+#icons a {
+    text-decoration: none;
+}
+
+#icons a:hover {
+    background-color: #8FF9E4;
+    color: black;
+}
+
+                    /*Change the color of links on hover*/
+
+#nav a:hover {
+    background-color: #8FF9E4;
+    color: black;
+}
+
+#nav a.active {
+    background-color: #8FF9E4;
+    color: white;
+}
+
+#nav {
+    float: right;
+}
+
+#logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.hero-text {
+    width: 100%;
+    font-size: 1.5em;
+    font-family: "work sans", sans-serif;
+    font-weight: 100;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+#hairwork img {
+    display: inline-block;
+    clear: both;
+}
+
+.red {
+    clear: both;
+    float: left;
+}
+
+/*#blonde {
+    float: right;
+}*/
+#copyright {
+    float: left;
+}
+
+#address {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
