@@ -68,11 +68,10 @@ button {
     border-radius: 8px;
     text-transform: lowercase;
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1em;
     opacity: .9;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
 button a {
     color:#fff;
     text-decoration: none;
@@ -161,7 +160,7 @@ footer{
 
 .hero-stylisttext {
     width: 100%;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: "work sans", sans-serif;
     font-weight: 100;
     text-transform: lowercase;
