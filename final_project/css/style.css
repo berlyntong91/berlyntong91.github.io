@@ -120,7 +120,8 @@ footer{
     padding-top: 20px;
     border-radius: 6px;
     filter: brightness(95%);
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -159,7 +160,7 @@ footer{
 
 .hero-stylisttext {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: "work sans", sans-serif;
     font-weight: 100;
     text-transform: lowercase;
@@ -203,13 +204,10 @@ footer{
         width: 160px;
         height: auto;
     }
-/*    .hero-stylistimage{
-        width: auto;
-    }*/
 
     footer {
         width: 100%;
-        font-size: .5em;
+        font-size: 1em;
     }
 
     header {
